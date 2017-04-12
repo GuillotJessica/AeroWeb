@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	background-color: #ededed;
+}
+/*******************************************************************/
+/*Navbar*/
+header {
+	background-color: #fff;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header h3 {
+	text-align: center;
+	color: grey;
+	font-size: 90px;
+	font-family: Ano,arial,sans-serif;
+}
+#navbar {
+	float: left;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 46px;
+	background-color: #fff;i
+	box-shadow: 0px 1px 5px 0px #9b9b9b;
+}
+#navbar ul {
+	list-style: none;
+	display: flex;
+	margin: 0 auto;
+	padding: 0;
+}
+#navbar li {
+	height: 41px;
+	padding: 0 14px;
+	border-bottom: 5px solid #fff;
+	display: flex;
+	align-items: center;
+}
+#navbar a {
+	color: grey;
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	text-decoration: none;
+}
+#navbar a:hover {
+	color: #0084B4;
+}
+#navbar li:hover {
+	border-bottom-color: #0084B4;
+}
+/*******************************************************************/
+/*Page*/
+#page {
+	margin: 0 auto;
+	width: 90%;
+	background-color: #fff;
+	display: flex;
+}
+/*******************************************************************/
+@font-face {
+	font-family: 'Ano';
+	src: url(typo/Another.otf);
+	font-weight: normal;
+}
