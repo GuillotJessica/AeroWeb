@@ -68,14 +68,17 @@ h1 {
 
 
 #equipe, #avion, #video{
-	width: 100vw;
 }
-/*#equipe{
+#equipe{
 	margin-top: 15em;
-}*/
+}
+#equipe h2 {
+	text-align: center;
+}
 p{
 	background-color: black;
 	color: white;
+	box-sizing: border-box;
 	padding: 1em;
 	font-family: sans-serif;
 }
