@@ -76,10 +76,16 @@ p{
 	border-radius: 0.5em;
 	padding: 1em;
 	margin: 1em;
+	font-family: sans-serif;
 }
 video{
 	max-width: 40%;
 	float: left;
+}
+footer img{
+	width: 6em;
+	float: left;
+	margin: 1em;
 }
 /*******************************************************************/
 @font-face {
