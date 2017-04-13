@@ -11,11 +11,16 @@ header {
 	justify-content: center;
 	align-items: center;
 }
-header h3 {
+header h1 {
 	text-align: center;
 	color: grey;
 	font-size: 90px;
 	font-family: Ano,arial,sans-serif;
+}
+.logo{
+	width: 15%;
+	transform: rotate(45deg);
+	margin-right: 2.5em;
 }
 #navbar {
 	float: left;
@@ -38,10 +43,11 @@ header h3 {
 	border-bottom: 5px solid #fff;
 	display: flex;
 	align-items: center;
+	margin-right: 2em;
 }
 #navbar a {
 	color: grey;
-	font-size: 14px;
+	font-size: 25px;
 	font-family: arial,sans-serif;
 	text-decoration: none;
 }
@@ -58,6 +64,19 @@ header h3 {
 	width: 90%;
 	background-color: #fff;
 	display: flex;
+}
+p{
+	background-color: black;
+	color: white;
+	width: 40%;
+	float: left;
+	border-radius: 0.5em;
+	padding: 1em;
+	margin: 1em;
+}
+video{
+	max-width: 40%;
+	float: left;
 }
 /*******************************************************************/
 @font-face {
