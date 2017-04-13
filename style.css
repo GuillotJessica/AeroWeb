@@ -85,12 +85,16 @@ p{
 .portrait{
 	max-width: 100%;
 }
-#Abdennour, #Yanisse, #Leanne, #Rayane, #umutcan{
+#Abdennour p, #Yanisse p, #Leanne p, #Rayane p, #umutcan p, #Roxane p {
+	height: 12em;
+	text-align: justify;
+}
+#Roxane, #Abdennour, #Yanisse, #Leanne, #Rayane, #umutcan{
 	float: left;
 	max-width: 30%;
 }
 
-#Roxane, #Jessica, #Felix, #Jamil{
+ #Jessica, #Felix, #Jamil{
 	float: none;
 	clear: both;
 }
@@ -98,6 +102,11 @@ video{
 	max-width: 40%;
 	float: left;
 }
+
+footer {
+	clear:both;
+}
+
 footer img{
 	width: 6em;
 	float: left;
