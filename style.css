@@ -10,16 +10,18 @@ header {
 	justify-content: center;
 	align-items: center;
 }
-header h1 {
+h1 {
 	text-align: center;
 	color: grey;
 	font-size: 90px;
 	font-family: Ano,arial,sans-serif;
+	margin-top: -150px;
 }
 .logo{
 	width: 15%;
 	transform: rotate(45deg);
 	margin-right: 2.5em;
+	text-align: center;
 }
 #navbar {
 	float: left;
@@ -63,20 +65,31 @@ header h1 {
 	width: 90%;
 	background-color: #fff;
 }
+
+
 #equipe, #avion, #video{
 	width: 100vw;
 }
+/*#equipe{
+	margin-top: 15em;
+}*/
 p{
 	background-color: black;
 	color: white;
-	width: 40%;
-	border-radius: 0.5em;
 	padding: 1em;
-	margin: 1em;
 	font-family: sans-serif;
 }
 .portrait{
-	width: 25%;
+	max-width: 100%;
+}
+#Abdennour, #Yanisse, #Leanne, #Rayane, #umutcan{
+	float: left;
+	max-width: 30%;
+}
+
+#Roxane, #Jessica, #Felix, #Jamil{
+	float: none;
+	clear: both;
 }
 video{
 	max-width: 40%;
